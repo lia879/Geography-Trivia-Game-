@@ -1,0 +1,52 @@
+body { 
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Chewy', cursive;
+}
+
+
+
+h1,
+h2,
+h3 {
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	padding: 25px;
+	text-shadow: 2px 2px rgb(31, 56, 201);
+}
+
+.answer,
+#timer {
+	font-weight: 900;
+}
+
+#start {
+	color: rgb(224, 204, 18);
+}
+
+.choices {
+	text-align: center;
+	border: groove 2px black;
+	border-radius: 5%;
+	margin: 0 35%;
+}
+
+.choices:hover {
+	background-color: rgb(10, 14, 1);
+	color: rgb(231, 235, 15);
+}
+
+#gameScreen {
+	-webkit-box-shadow: 7px 5px 47px 0px rgba(53, 102, 207, 0.79);
+	-moz-box-shadow: 7px 5px 47px 0px rgba(53, 102, 207, 0.79);
+	box-shadow: 7px 5px 47px 0px rgba(53, 102, 207, 0.79);
+}
+
+.shadow {
+	-webkit-box-shadow: -7px 6px 5px -1px rgba(53, 102, 207, 0.79);
+	-moz-box-shadow: -7px 6px 5px -1px rgba(53, 102, 207, 0.79);
+	box-shadow: -7px 6px 5px -1px rgba(53, 102, 207, 0.79);
+}
